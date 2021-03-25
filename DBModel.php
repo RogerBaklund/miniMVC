@@ -253,6 +253,7 @@ class DBTableModel extends DBModel {
       $fieldtype = $sqltype;
       if(strpos($fieldtype,' ') !== false) {
         list($fieldtype,$extra) = explode(' ',$fieldtype,2);
+        $par = 6;
       }
       if(in_array($fieldtype,array('float','double'))) 
         $par = 10;
