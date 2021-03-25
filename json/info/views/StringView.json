@@ -1,0 +1,6 @@
+{
+"heading":"StringView class",
+"intro":"This class is instantiated with a string template and renders it with provided data.",
+"example":"$data = array(\n  array('Joe','joe@company.com'),\n  array('Suzy','suzy@company.com'));\n\n$table = new StringView('<table class=\"table\">$rows</table>');\n$row = new StringView('<tr><td>$name</td><td>$email</td></tr>');\n\n$rows = $row->loop($data,array('name','email'));\n$table->data = array('rows'=>$rows);\necho $table;",
+"description":"This is a subclass of the <code>View</code> class and has similar functionality, except it takes a string as a tempate instead of reading it from an external file, making it suitable for smaller ad-hoc templates. See description of the <code>View</code> class for more information.</p><p>This class does not support PHP tags, instead you can use variables directly. It is parsed as a PHP double quoted string. You can use curly braces around the placeholder, this is sometimes needed when the variable is used just before numbers or characters which would otherwise be interpreted as a part of the variable name.</p><p><b>NOTE:</b> The templates can be within single quotes as in the example, or within double quotes, but then you must escape the $ characters with a backslash so that PHP does not resolve the variables prematurely. You can also use heredoc or nowdoc syntax."
+}

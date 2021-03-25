@@ -1,0 +1,10 @@
+<html>
+<head>
+<title><?=$title?></title>
+<?=$head?>
+<?=$external_files?>
+</head>
+<body>
+<?=$body?>
+</body>
+</html>

@@ -1,0 +1,6 @@
+{
+"heading":"Models",
+"intro":"Models represents the data in your application.",
+"example":"",
+"description":"There are different types of models with different functionality, but in general the model objects have properties which corresponds to placeholders in the views. The <code>Model</code> class is the base class of all model classes, you can set properties on this object and it has a <code>update()</code> method which can take an associative array or an other model or any object as input.</p><p>The <code>JSONModel</code> and <code>DBRecordModel</code> classes has persistent properties, this means that any changes done to the properties are automatically saved.</p><p>The <code>DBStatusModel</code> can be used to fetch technical status and variables from the database server.</p><p>The <code>DBTableModel</code> has methods that operates on a database table, like fetching rows, finding number of rows, min, max, sums and averages of specific columns and so on.</p><p>For more information and examples, check the model classes in the menu above."
+}

@@ -1,0 +1,6 @@
+{
+"heading":"InlineView class",
+"intro":"This class is instantiated with a string template and renders it with provided data.",
+"example":"$link = new InlineView('<a href=\"<?=$href?>\" class=\"btn\"><?=$label?></a>');\n$link->data = array('href'=>'?','label'=>'Home');\necho $link;\n\n# Looping\n$data = array(array(1,2,3),array(4,5,6),array(7,8,9));\n$v = new InlineView('<tr><td><?=$a?></td><td><?=$b?></td><td><?=$c?></td></tr>');\necho '<table>'.$v->loop($data,array('a','b','c')).'</table>';",
+"description":"This is a subclass of the <code>View</code> class and has similar functionality, except it takes a string as a template instead of reading it from an external file, making it suitable for smaller ad-hoc templates. See description of the <code>View</code> class for more information.</p><p><b>NOTE:</b> This class requires <code>allow_url_fopen</code> and <code>allow_url_include</code> to be enabled in <code>php.ini</code>."
+}

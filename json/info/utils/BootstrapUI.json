@@ -1,0 +1,6 @@
+{
+"heading":"BootstrapUI class",
+"intro":"This class has methods for making Bootstrap based pages.",
+"example":"// Make subclass\nclass UI extends BootstrapUI {}\n\n// Output an icon\necho UI::Icon('paperclip');\n\n// Output a progress bar\necho UI::Progress(50,'danger');\n\n// A button with an icon\necho UI::Button(UI::Icon('star','orange').' Favourites','#fav'));",
+"description":"This is an abstract class, you can not make instances. You are adviced to make a subclass with a short name, like <code>UI</code> or similar, because the methods will be used extensively and a short name is faster to type. This also allows easy implementation of your own helper methods.</p><p>This class contains helper methods for easy implementation of most of the standard Bootstrap features, but you can of course combine it with plain Bootstrap style HTML. "
+}

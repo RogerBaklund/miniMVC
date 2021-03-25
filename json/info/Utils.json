@@ -1,0 +1,6 @@
+{
+"heading":"Utils",
+"intro":"Different utility classes which you can use in your application.",
+"example":"",
+"description":"The following is a short introduction to each of the utility classes, use the menu above to see some examples and read more about each class.</p><p>The <code>FormBuilder</code> class can be used to generate input forms. It has special support for MySQL field types, making it easy to build form for database tables, but you can use it for any type of form.</p><p>The <code>SimpleMenu</code> class can be used to build menus like the one that is used in this demo.</p><p>The <code>SimpleInput</code> class provides methods for getting input from the user.</p><p>The <code>BootstrapUI</code> class has methods for simplifying the creation of Bootstrap based pages."
+}
