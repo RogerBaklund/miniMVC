@@ -303,7 +303,7 @@ class DBTableModel extends DBModel {
           if(is_array($value)) {
             if(in_array($no,$selected)) 
               $sel = true;
-          } elseif($value == $no)
+          } elseif($value == $no || $value == trim($opt,"'"))
             $sel = true;
           return '<option'.($sel ? ' selected="selected"':'').' value="'.($no++).'">'.trim($opt,"'").'</option>';
         },explode(",",$par));
