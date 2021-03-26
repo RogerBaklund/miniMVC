@@ -53,7 +53,7 @@ do otherwise. **The password will be visible!**
 
 ### NOTE: v0.1a is old code (2015)
 
-Current version: [v0.1a-2](releases/tag/v0.1a-2) (Same old code, just bugfix)
+Current version: [v0.1a-2](//github.com/RogerBaklund/miniMVC/releases/tag/v0.1a-2releases/tag/v0.1a-2) (Same old code, just bugfix)
 
 This code is compatible with PHP 5.3 or later.
 
