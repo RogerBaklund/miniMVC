@@ -53,6 +53,8 @@ do otherwise. **The password will be visible!**
 
 ### NOTE: v0.1a is old code (2015)
 
+Current version: [v0.1a-2](releases/tag/v0.1a-2) (Same old code, just bugfix)
+
 This code is compatible with PHP 5.3 or later.
 
 2021: Tested with PHP 7.4 & MySQL 8
